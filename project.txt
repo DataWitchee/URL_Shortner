@@ -1,0 +1,8 @@
+we will input a long URL and output a short URL.
+1. What happens when you type https://google.com into a browser?
+Imagine the internet is a massive city, and websites are houses. To visit a house, you need its exact address. Here is the journey your browser takes:
+The Phonebook (DNS Lookup): Computers don’t understand words like "google.com"; they only understand numbers called IP addresses (like 142.250.190.46). When you hit enter, your browser checks a digital phonebook called the DNS (Domain Name System) to find the exact IP address matching "google.com".
+The Handshake (TCP/TLS): Once the browser has the IP address, it travels to the server (a powerful computer where Google's website lives). Because you typed HTTPS (the 'S' stands for secure), your browser and the server do a secret handshake to lock the connection. This ensures no one can spy on the data traveling between you two.
+Asking for the Page (The Request): Your browser politely asks the server, "Can you please send me the Google homepage?"
+Getting the Delivery (The Response): The server packages up the webpage (HTML, images, colors, and text) and sends it back to you.
+Painting the Screen (Rendering): Your browser opens the package, reads the code, and instantly paints the Google search bar and logo on your screen!

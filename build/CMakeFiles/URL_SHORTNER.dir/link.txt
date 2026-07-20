@@ -1,0 +1,1 @@
+/usr/bin/c++  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/URL_SHORTNER.dir/src/main.cpp.o CMakeFiles/URL_SHORTNER.dir/src/server/Server.cpp.o CMakeFiles/URL_SHORTNER.dir/src/service/UrlService.cpp.o CMakeFiles/URL_SHORTNER.dir/src/database/database.cpp.o CMakeFiles/URL_SHORTNER.dir/src/utils/Random.cpp.o -o URL_SHORTNER
