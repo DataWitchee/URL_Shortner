@@ -129,29 +129,29 @@ URL_SHORTNER/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/URL_SHORTNER.dir/build.make CMakeFiles/URL_SHORTNER.dir/build
 .PHONY : URL_SHORTNER/fast
 
-src/database/database.o: src/database/database.cpp.o
-.PHONY : src/database/database.o
+src/database/Database.o: src/database/Database.cpp.o
+.PHONY : src/database/Database.o
 
 # target to build an object file
-src/database/database.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/URL_SHORTNER.dir/build.make CMakeFiles/URL_SHORTNER.dir/src/database/database.cpp.o
-.PHONY : src/database/database.cpp.o
+src/database/Database.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/URL_SHORTNER.dir/build.make CMakeFiles/URL_SHORTNER.dir/src/database/Database.cpp.o
+.PHONY : src/database/Database.cpp.o
 
-src/database/database.i: src/database/database.cpp.i
-.PHONY : src/database/database.i
+src/database/Database.i: src/database/Database.cpp.i
+.PHONY : src/database/Database.i
 
 # target to preprocess a source file
-src/database/database.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/URL_SHORTNER.dir/build.make CMakeFiles/URL_SHORTNER.dir/src/database/database.cpp.i
-.PHONY : src/database/database.cpp.i
+src/database/Database.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/URL_SHORTNER.dir/build.make CMakeFiles/URL_SHORTNER.dir/src/database/Database.cpp.i
+.PHONY : src/database/Database.cpp.i
 
-src/database/database.s: src/database/database.cpp.s
-.PHONY : src/database/database.s
+src/database/Database.s: src/database/Database.cpp.s
+.PHONY : src/database/Database.s
 
 # target to generate assembly for a file
-src/database/database.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/URL_SHORTNER.dir/build.make CMakeFiles/URL_SHORTNER.dir/src/database/database.cpp.s
-.PHONY : src/database/database.cpp.s
+src/database/Database.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/URL_SHORTNER.dir/build.make CMakeFiles/URL_SHORTNER.dir/src/database/Database.cpp.s
+.PHONY : src/database/Database.cpp.s
 
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
@@ -258,9 +258,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... URL_SHORTNER"
-	@echo "... src/database/database.o"
-	@echo "... src/database/database.i"
-	@echo "... src/database/database.s"
+	@echo "... src/database/Database.o"
+	@echo "... src/database/Database.i"
+	@echo "... src/database/Database.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

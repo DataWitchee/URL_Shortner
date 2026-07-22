@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/URL_SHORTNER.dir/src/database/database.cpp.o"
-  "CMakeFiles/URL_SHORTNER.dir/src/database/database.cpp.o.d"
+  "CMakeFiles/URL_SHORTNER.dir/src/database/Database.cpp.o"
+  "CMakeFiles/URL_SHORTNER.dir/src/database/Database.cpp.o.d"
   "CMakeFiles/URL_SHORTNER.dir/src/main.cpp.o"
   "CMakeFiles/URL_SHORTNER.dir/src/main.cpp.o.d"
   "CMakeFiles/URL_SHORTNER.dir/src/server/Server.cpp.o"

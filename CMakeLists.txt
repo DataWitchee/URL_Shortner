@@ -1,17 +1,20 @@
-cmake_minimum_required(VERSION 3.16)
-
+cmake_minimum_required(VERSION 3.10)
 project(URL_SHORTNER)
 
 set(CMAKE_CXX_STANDARD 17)
-set(CMAKE_CXX_STANDARD_REQUIRED ON)
+set(CMAKE_CXX_STANDARD_REQUIRED True)
 
-add_executable(URL_SHORTNER
+include_directories(src)
+
+set(SOURCES
     src/main.cpp
     src/server/Server.cpp
+    src/database/Database.cpp
     src/service/UrlService.cpp
-    src/database/database.cpp
     src/utils/Random.cpp
 )
-target_include_directories(URL_SHORTNER PRIVATE
-    ${PROJECT_SOURCE_DIR}/src
-)
+
+add_executable(URL_SHORTNER ${SOURCES})
+
+# Link the standard SQLite3 library
+target_link_libraries(URL_SHORTNER sqlite3)

@@ -100,10 +100,24 @@ CMakeFiles/URL_SHORTNER.dir/src/server/Server.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/URL_SHORTNER.dir/src/server/Server.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mannatsaini/Documents/URL_Shortner/src/server/Server.cpp -o CMakeFiles/URL_SHORTNER.dir/src/server/Server.cpp.s
 
+CMakeFiles/URL_SHORTNER.dir/src/database/Database.cpp.o: CMakeFiles/URL_SHORTNER.dir/flags.make
+CMakeFiles/URL_SHORTNER.dir/src/database/Database.cpp.o: /Users/mannatsaini/Documents/URL_Shortner/src/database/Database.cpp
+CMakeFiles/URL_SHORTNER.dir/src/database/Database.cpp.o: CMakeFiles/URL_SHORTNER.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/mannatsaini/Documents/URL_Shortner/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/URL_SHORTNER.dir/src/database/Database.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/URL_SHORTNER.dir/src/database/Database.cpp.o -MF CMakeFiles/URL_SHORTNER.dir/src/database/Database.cpp.o.d -o CMakeFiles/URL_SHORTNER.dir/src/database/Database.cpp.o -c /Users/mannatsaini/Documents/URL_Shortner/src/database/Database.cpp
+
+CMakeFiles/URL_SHORTNER.dir/src/database/Database.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/URL_SHORTNER.dir/src/database/Database.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mannatsaini/Documents/URL_Shortner/src/database/Database.cpp > CMakeFiles/URL_SHORTNER.dir/src/database/Database.cpp.i
+
+CMakeFiles/URL_SHORTNER.dir/src/database/Database.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/URL_SHORTNER.dir/src/database/Database.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mannatsaini/Documents/URL_Shortner/src/database/Database.cpp -o CMakeFiles/URL_SHORTNER.dir/src/database/Database.cpp.s
+
 CMakeFiles/URL_SHORTNER.dir/src/service/UrlService.cpp.o: CMakeFiles/URL_SHORTNER.dir/flags.make
 CMakeFiles/URL_SHORTNER.dir/src/service/UrlService.cpp.o: /Users/mannatsaini/Documents/URL_Shortner/src/service/UrlService.cpp
 CMakeFiles/URL_SHORTNER.dir/src/service/UrlService.cpp.o: CMakeFiles/URL_SHORTNER.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/mannatsaini/Documents/URL_Shortner/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/URL_SHORTNER.dir/src/service/UrlService.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/mannatsaini/Documents/URL_Shortner/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/URL_SHORTNER.dir/src/service/UrlService.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/URL_SHORTNER.dir/src/service/UrlService.cpp.o -MF CMakeFiles/URL_SHORTNER.dir/src/service/UrlService.cpp.o.d -o CMakeFiles/URL_SHORTNER.dir/src/service/UrlService.cpp.o -c /Users/mannatsaini/Documents/URL_Shortner/src/service/UrlService.cpp
 
 CMakeFiles/URL_SHORTNER.dir/src/service/UrlService.cpp.i: cmake_force
@@ -113,20 +127,6 @@ CMakeFiles/URL_SHORTNER.dir/src/service/UrlService.cpp.i: cmake_force
 CMakeFiles/URL_SHORTNER.dir/src/service/UrlService.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/URL_SHORTNER.dir/src/service/UrlService.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mannatsaini/Documents/URL_Shortner/src/service/UrlService.cpp -o CMakeFiles/URL_SHORTNER.dir/src/service/UrlService.cpp.s
-
-CMakeFiles/URL_SHORTNER.dir/src/database/database.cpp.o: CMakeFiles/URL_SHORTNER.dir/flags.make
-CMakeFiles/URL_SHORTNER.dir/src/database/database.cpp.o: /Users/mannatsaini/Documents/URL_Shortner/src/database/database.cpp
-CMakeFiles/URL_SHORTNER.dir/src/database/database.cpp.o: CMakeFiles/URL_SHORTNER.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/mannatsaini/Documents/URL_Shortner/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/URL_SHORTNER.dir/src/database/database.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/URL_SHORTNER.dir/src/database/database.cpp.o -MF CMakeFiles/URL_SHORTNER.dir/src/database/database.cpp.o.d -o CMakeFiles/URL_SHORTNER.dir/src/database/database.cpp.o -c /Users/mannatsaini/Documents/URL_Shortner/src/database/database.cpp
-
-CMakeFiles/URL_SHORTNER.dir/src/database/database.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/URL_SHORTNER.dir/src/database/database.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mannatsaini/Documents/URL_Shortner/src/database/database.cpp > CMakeFiles/URL_SHORTNER.dir/src/database/database.cpp.i
-
-CMakeFiles/URL_SHORTNER.dir/src/database/database.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/URL_SHORTNER.dir/src/database/database.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mannatsaini/Documents/URL_Shortner/src/database/database.cpp -o CMakeFiles/URL_SHORTNER.dir/src/database/database.cpp.s
 
 CMakeFiles/URL_SHORTNER.dir/src/utils/Random.cpp.o: CMakeFiles/URL_SHORTNER.dir/flags.make
 CMakeFiles/URL_SHORTNER.dir/src/utils/Random.cpp.o: /Users/mannatsaini/Documents/URL_Shortner/src/utils/Random.cpp
@@ -146,8 +146,8 @@ CMakeFiles/URL_SHORTNER.dir/src/utils/Random.cpp.s: cmake_force
 URL_SHORTNER_OBJECTS = \
 "CMakeFiles/URL_SHORTNER.dir/src/main.cpp.o" \
 "CMakeFiles/URL_SHORTNER.dir/src/server/Server.cpp.o" \
+"CMakeFiles/URL_SHORTNER.dir/src/database/Database.cpp.o" \
 "CMakeFiles/URL_SHORTNER.dir/src/service/UrlService.cpp.o" \
-"CMakeFiles/URL_SHORTNER.dir/src/database/database.cpp.o" \
 "CMakeFiles/URL_SHORTNER.dir/src/utils/Random.cpp.o"
 
 # External object files for target URL_SHORTNER
@@ -155,8 +155,8 @@ URL_SHORTNER_EXTERNAL_OBJECTS =
 
 URL_SHORTNER: CMakeFiles/URL_SHORTNER.dir/src/main.cpp.o
 URL_SHORTNER: CMakeFiles/URL_SHORTNER.dir/src/server/Server.cpp.o
+URL_SHORTNER: CMakeFiles/URL_SHORTNER.dir/src/database/Database.cpp.o
 URL_SHORTNER: CMakeFiles/URL_SHORTNER.dir/src/service/UrlService.cpp.o
-URL_SHORTNER: CMakeFiles/URL_SHORTNER.dir/src/database/database.cpp.o
 URL_SHORTNER: CMakeFiles/URL_SHORTNER.dir/src/utils/Random.cpp.o
 URL_SHORTNER: CMakeFiles/URL_SHORTNER.dir/build.make
 URL_SHORTNER: CMakeFiles/URL_SHORTNER.dir/link.txt

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>C++ URL Shortener</title>
+    <style>
+        body { font-family: -apple-system, sans-serif; display: flex; flex-direction: column; align-items: center; margin-top: 10vh; background-color: #f4f4f9; }
+        .container { background: white; padding: 40px; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); text-align: center; }
+        input { padding: 12px; width: 300px; font-size: 16px; border: 1px solid #ccc; border-radius: 6px; margin-bottom: 15px; }
+        button { padding: 12px 24px; font-size: 16px; background-color: #007bff; color: white; border: none; border-radius: 6px; cursor: pointer; transition: 0.2s;}
+        button:hover { background-color: #0056b3; }
+        #result { margin-top: 20px; font-size: 18px; }
+        a { color: #28a745; text-decoration: none; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🔗 C++ URL Shortener</h1>
+        <input type="text" id="urlInput" placeholder="https://example.com" required>
+        <br>
+        <button onclick="shortenUrl()">Shorten URL</button>
+        <div id="result"></div>
+    </div>
+
+    <script>
+        async function shortenUrl() {
+            const url = document.getElementById('urlInput').value;
+            if (!url) return;
+            
+            const response = await fetch('/api/shorten', { method: 'POST', body: url });
+            
+            if (response.ok) {
+                const shortCode = await response.text();
+                const shortUrl = window.location.origin + '/' + shortCode;
+                document.getElementById('result').innerHTML = 
+                    `Success! Here is your link:<br><br> <a href="${shortUrl}" target="_blank">${shortUrl}</a>`;
+            } else {
+                document.getElementById('result').innerText = "Error shortening URL.";
+            }
+        }
+    </script>
+</body>
+</html>
